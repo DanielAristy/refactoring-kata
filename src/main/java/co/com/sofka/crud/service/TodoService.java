@@ -1,6 +1,6 @@
 package co.com.sofka.crud.service;
 
-import co.com.sofka.crud.persistence.model.ToDo;
+import co.com.sofka.crud.persistence.entity.ToDo;
 
 public interface TodoService {
 

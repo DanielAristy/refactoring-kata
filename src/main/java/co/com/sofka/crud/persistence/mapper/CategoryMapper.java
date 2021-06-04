@@ -1,7 +1,7 @@
 package co.com.sofka.crud.persistence.mapper;
 
 import co.com.sofka.crud.domain.Category;
-import co.com.sofka.crud.persistence.model.Categoria;
+import co.com.sofka.crud.persistence.entity.Categoria;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

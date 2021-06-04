@@ -1,7 +1,7 @@
 package co.com.sofka.crud.persistence.mapper;
 
 import co.com.sofka.crud.domain.Todo;
-import co.com.sofka.crud.persistence.model.ToDo;
+import co.com.sofka.crud.persistence.entity.ToDo;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

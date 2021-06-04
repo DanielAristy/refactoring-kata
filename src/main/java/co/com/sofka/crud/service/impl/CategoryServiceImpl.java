@@ -1,7 +1,7 @@
 package co.com.sofka.crud.service.impl;
 
-import co.com.sofka.crud.persistence.model.Categoria;
-import co.com.sofka.crud.persistence.crud.CategoryRepository;
+import co.com.sofka.crud.persistence.entity.Categoria;
+import co.com.sofka.crud.persistence.crud.CategoryCrudRepository;
 import co.com.sofka.crud.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CategoryServiceImpl implements CategoryService {
     @Autowired
-    private CategoryRepository repository;
+    private CategoryCrudRepository repository;
 
 
     @Override

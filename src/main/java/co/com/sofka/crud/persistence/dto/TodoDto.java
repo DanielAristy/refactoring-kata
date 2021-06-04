@@ -1,6 +1,6 @@
 package co.com.sofka.crud.persistence.dto;
 
-import co.com.sofka.crud.persistence.model.Categoria;
+import co.com.sofka.crud.persistence.entity.Categoria;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.Serializable;

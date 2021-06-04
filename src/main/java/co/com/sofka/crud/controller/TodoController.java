@@ -1,7 +1,7 @@
 package co.com.sofka.crud.controller;
 
 import co.com.sofka.crud.persistence.dto.TodoDto;
-import co.com.sofka.crud.persistence.model.ToDo;
+import co.com.sofka.crud.persistence.entity.ToDo;
 import co.com.sofka.crud.service.TodoService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package co.com.sofka.crud.persistence.dto;
 
-import co.com.sofka.crud.persistence.model.ToDo;
+import co.com.sofka.crud.persistence.entity.ToDo;
 
 import java.util.List;
 

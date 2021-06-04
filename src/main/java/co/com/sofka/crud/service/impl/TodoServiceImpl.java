@@ -1,7 +1,7 @@
 package co.com.sofka.crud.service.impl;
 
-import co.com.sofka.crud.persistence.model.ToDo;
-import co.com.sofka.crud.persistence.crud.TodoRepository;
+import co.com.sofka.crud.persistence.entity.ToDo;
+import co.com.sofka.crud.persistence.crud.TodoCrudRepository;
 import co.com.sofka.crud.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public class TodoServiceImpl implements TodoService {
 
     @Autowired
-    private TodoRepository repository;
+    private TodoCrudRepository repository;
 
     @Override
     public Iterable<ToDo> list() {

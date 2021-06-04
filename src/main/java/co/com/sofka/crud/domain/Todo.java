@@ -1,6 +1,6 @@
 package co.com.sofka.crud.domain;
 
-import co.com.sofka.crud.persistence.model.Categoria;
+import co.com.sofka.crud.persistence.entity.Categoria;
 
 public class Todo {
     private Integer todoId;

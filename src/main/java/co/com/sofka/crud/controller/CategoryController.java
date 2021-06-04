@@ -1,6 +1,6 @@
 package co.com.sofka.crud.controller;
 
-import co.com.sofka.crud.persistence.model.Categoria;
+import co.com.sofka.crud.persistence.entity.Categoria;
 import co.com.sofka.crud.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
