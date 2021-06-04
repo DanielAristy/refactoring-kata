@@ -1,9 +1,7 @@
 package co.com.sofka.crud.service.impl;
 
-import co.com.sofka.crud.converter.CategoryConverter;
-import co.com.sofka.crud.domain.dto.CategoryDto;
-import co.com.sofka.crud.domain.model.Category;
-import co.com.sofka.crud.repository.CategoryRepository;
+import co.com.sofka.crud.persistence.model.Category;
+import co.com.sofka.crud.persistence.crud.CategoryRepository;
 import co.com.sofka.crud.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

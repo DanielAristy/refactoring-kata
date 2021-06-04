@@ -1,7 +1,6 @@
 package co.com.sofka.crud.service;
 
-import co.com.sofka.crud.domain.dto.CategoryDto;
-import co.com.sofka.crud.domain.model.Category;
+import co.com.sofka.crud.persistence.model.Category;
 
 public interface CategoryService {
 

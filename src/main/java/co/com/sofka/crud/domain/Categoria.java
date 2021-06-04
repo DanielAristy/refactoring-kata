@@ -1,22 +1,21 @@
-package co.com.sofka.crud.domain.dto;
+package co.com.sofka.crud.domain;
 
-import co.com.sofka.crud.domain.model.Todo;
+import co.com.sofka.crud.persistence.model.Todo;
 
 import javax.persistence.OneToMany;
 import java.util.List;
 
-public class CategoryDto {
-
-    private Integer id_category;
+public class Categoria {
+    private Integer categoriaId;
     private String name;
     private List<Todo> todos;
 
-    public Integer getId_category() {
-        return id_category;
+    public Integer getCategoriaId() {
+        return categoriaId;
     }
 
-    public void setId_category(Integer id_category) {
-        this.id_category = id_category;
+    public void setCategoriaId(Integer categoriaId) {
+        this.categoriaId = categoriaId;
     }
 
     public String getName() {

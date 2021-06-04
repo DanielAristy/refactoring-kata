@@ -1,23 +1,21 @@
-package co.com.sofka.crud.domain.model;
+package co.com.sofka.crud.persistence.dto;
 
-import javax.persistence.*;
+import co.com.sofka.crud.persistence.model.Todo;
+
 import java.util.List;
 
-@Entity
-public class Category {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class CategoryDto {
+
     private Integer id_category;
     private String name;
-    @OneToMany(mappedBy = "category")
     private List<Todo> todos;
 
     public Integer getId_category() {
         return id_category;
     }
 
-    public void setId_category(Integer id) {
-        this.id_category = id;
+    public void setId_category(Integer id_category) {
+        this.id_category = id_category;
     }
 
     public String getName() {

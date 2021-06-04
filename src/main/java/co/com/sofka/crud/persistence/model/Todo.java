@@ -1,4 +1,4 @@
-package co.com.sofka.crud.domain.model;
+package co.com.sofka.crud.persistence.model;
 
 import javax.persistence.*;
 

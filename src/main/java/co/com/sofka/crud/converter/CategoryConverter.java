@@ -1,12 +1,5 @@
 package co.com.sofka.crud.converter;
 
-import co.com.sofka.crud.domain.dto.CategoryDto;
-import co.com.sofka.crud.domain.dto.TodoDto;
-import co.com.sofka.crud.domain.model.Category;
-import co.com.sofka.crud.domain.model.Todo;
-import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @Component

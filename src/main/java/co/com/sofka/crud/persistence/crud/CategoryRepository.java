@@ -1,7 +1,7 @@
-package co.com.sofka.crud.repository;
+package co.com.sofka.crud.persistence.crud;
 
 
-import co.com.sofka.crud.domain.model.Category;
+import co.com.sofka.crud.persistence.model.Category;
 import org.springframework.data.repository.CrudRepository;
 
 public interface CategoryRepository extends CrudRepository<Category, Integer> {

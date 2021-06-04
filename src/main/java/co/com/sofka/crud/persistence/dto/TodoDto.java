@@ -1,6 +1,6 @@
-package co.com.sofka.crud.domain.dto;
+package co.com.sofka.crud.persistence.dto;
 
-import co.com.sofka.crud.domain.model.Category;
+import co.com.sofka.crud.persistence.model.Category;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.Serializable;
