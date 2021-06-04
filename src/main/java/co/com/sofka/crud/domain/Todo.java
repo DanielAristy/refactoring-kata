@@ -1,12 +1,12 @@
 package co.com.sofka.crud.domain;
 
-import co.com.sofka.crud.persistence.model.Category;
+import co.com.sofka.crud.persistence.model.Categoria;
 
-public class ToDo {
+public class Todo {
     private Integer todoId;
     private String name;
     private boolean completed;
-    private Category category;
+    private Categoria category;
 
     public Integer getTodoId() {
         return todoId;
@@ -32,11 +32,11 @@ public class ToDo {
         this.completed = completed;
     }
 
-    public Category getCategory() {
+    public Categoria getCategory() {
         return category;
     }
 
-    public void setCategory(Category category) {
+    public void setCategory(Categoria category) {
         this.category = category;
     }
 }

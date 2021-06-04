@@ -1,6 +1,6 @@
 package co.com.sofka.crud.persistence.dto;
 
-import co.com.sofka.crud.persistence.model.Category;
+import co.com.sofka.crud.persistence.model.Categoria;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.Serializable;
@@ -9,13 +9,13 @@ public class TodoDto implements Serializable {
     private Integer id;
     private String name;
     private boolean completed;
-    private Category category;
+    private Categoria category;
 
-    public Category getCategory() {
+    public Categoria getCategory() {
         return category;
     }
 
-    public void setCategory(Category category) {
+    public void setCategory(Categoria category) {
         this.category = category;
     }
 

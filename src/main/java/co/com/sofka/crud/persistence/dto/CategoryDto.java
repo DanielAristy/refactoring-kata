@@ -1,6 +1,6 @@
 package co.com.sofka.crud.persistence.dto;
 
-import co.com.sofka.crud.persistence.model.Todo;
+import co.com.sofka.crud.persistence.model.ToDo;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ public class CategoryDto {
 
     private Integer id_category;
     private String name;
-    private List<Todo> todos;
+    private List<ToDo> todos;
 
     public Integer getId_category() {
         return id_category;
@@ -26,11 +26,11 @@ public class CategoryDto {
         this.name = name;
     }
 
-    public List<Todo> getTodos() {
+    public List<ToDo> getTodos() {
         return todos;
     }
 
-    public void setTodos(List<Todo> todos) {
+    public void setTodos(List<ToDo> todos) {
         this.todos = todos;
     }
 }

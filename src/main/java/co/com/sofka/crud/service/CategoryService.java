@@ -1,12 +1,12 @@
 package co.com.sofka.crud.service;
 
-import co.com.sofka.crud.persistence.model.Category;
+import co.com.sofka.crud.persistence.model.Categoria;
 
 public interface CategoryService {
 
-    public Iterable<Category> list();
-    public Category save(Category category);
-    public Category update(Category category);
+    public Iterable<Categoria> list();
+    public Categoria save(Categoria category);
+    public Categoria update(Categoria category);
     public void delete(Integer id);
-    public Category get(Integer id);
+    public Categoria get(Integer id);
 }

@@ -1,6 +1,6 @@
 package co.com.sofka.crud.service.impl;
 
-import co.com.sofka.crud.persistence.model.Category;
+import co.com.sofka.crud.persistence.model.Categoria;
 import co.com.sofka.crud.persistence.crud.CategoryRepository;
 import co.com.sofka.crud.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,17 +13,17 @@ public class CategoryServiceImpl implements CategoryService {
 
 
     @Override
-    public Iterable<Category> list() {
+    public Iterable<Categoria> list() {
         return repository.findAll();
     }
 
     @Override
-    public Category save(Category category) {
+    public Categoria save(Categoria category) {
         return repository.save(category);
     }
 
     @Override
-    public Category update(Category category) {
+    public Categoria update(Categoria category) {
         return repository.save(category);
     }
 
@@ -33,7 +33,7 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
-    public Category get(Integer id) {
+    public Categoria get(Integer id) {
         return repository.findById(id).orElseThrow();
     }
 }

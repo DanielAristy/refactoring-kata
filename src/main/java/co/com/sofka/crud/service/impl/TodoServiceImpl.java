@@ -1,6 +1,6 @@
 package co.com.sofka.crud.service.impl;
 
-import co.com.sofka.crud.persistence.model.Todo;
+import co.com.sofka.crud.persistence.model.ToDo;
 import co.com.sofka.crud.persistence.crud.TodoRepository;
 import co.com.sofka.crud.service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,17 +13,17 @@ public class TodoServiceImpl implements TodoService {
     private TodoRepository repository;
 
     @Override
-    public Iterable<Todo> list() {
+    public Iterable<ToDo> list() {
         return repository.findAll();
     }
 
     @Override
-    public Todo save(Todo todo) {
+    public ToDo save(ToDo todo) {
         return repository.save(todo);
     }
 
     @Override
-    public Todo update(Todo todo) {
+    public ToDo update(ToDo todo) {
         return repository.save(todo);
     }
 
@@ -33,7 +33,7 @@ public class TodoServiceImpl implements TodoService {
     }
 
     @Override
-    public Todo get(Integer id) {
+    public ToDo get(Integer id) {
         return repository.findById(id).orElseThrow();
     }
 }
